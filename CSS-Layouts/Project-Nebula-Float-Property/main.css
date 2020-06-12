@@ -1,0 +1,32 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* your styles go here! */ 
+
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: black;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p,h1,h3 {
+  color: white;
+}
+img {
+  width: 350px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
