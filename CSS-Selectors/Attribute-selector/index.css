@@ -1,0 +1,14 @@
+
+img {
+  width: 300px;
+}
+
+/* Add a selector and remove comment
+.... {
+transform: rotate(180deg);
+}
+*/
+
+img[src*="cat"] {
+  transform : rotate(180deg);
+}

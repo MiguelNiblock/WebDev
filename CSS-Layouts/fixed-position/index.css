@@ -1,0 +1,13 @@
+main {
+  padding-left: 30px;
+  width: 300px;
+}
+
+.foo {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  background-color: blue;
+  left: 0;
+  top: 0;
+}

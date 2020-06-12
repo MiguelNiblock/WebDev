@@ -1,0 +1,51 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Your styles go here! */
+
+body {
+  padding : 50px;
+  font-size : 0;
+}
+
+.container {
+  height : 500px;
+  width : 800px;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+.box50 {
+  width : 50%;
+  height : 200px;
+  display : inline-block;
+  border : 1px black solid;
+}
+.green {
+  background-color : green;
+}
+.blue {
+  background-color : blue;
+}
+
+.box33 {
+  width : 33.33%;
+  height : 300px;
+  display : inline-block;
+  border : 1px black solid;
+}
+.gray {
+  background-color : gray;
+}
+.black {
+  background-color : black;
+}
+.yellow {
+  background-color : yellow;
+}

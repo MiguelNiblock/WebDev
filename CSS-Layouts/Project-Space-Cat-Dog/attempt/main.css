@@ -1,0 +1,84 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/** your styles go here **/
+
+nav {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  text-align: left;
+  height: 60px;
+  background-color: gray;
+  /* top: 0; */
+  border: 1px solid black;
+}
+.avatar {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50px;
+  top: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+ul{
+  display: inline;
+}
+li {
+  display : inline;
+}
+li:after {
+  content : " |"
+}
+
+main{
+  min-height: 1000px;
+  background: url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+.mycont {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  /* border: 1px solid black; */
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+}
+.box {
+  z-index: 1;
+  border: 10px dotted green;
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.spacecat {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  top: 0px;
+  left:0px;
+}
+.spacedog {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  top: 300px;
+  right: 0px;
+}
