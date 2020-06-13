@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+/* NavBar *******************************/
+.navdiv {
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+    background-color: #EEEEEE;
+    padding: 10px;
+    position: fixed;
+    font-size: 0;
+}
+nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.a-nav {
+    font-size: 18px;
+    padding-right: 12px;
+}
+.navdiv h1 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Search Section *********************/
+.search-section {
+    padding: 80px;
+    /* margin-bottom: 30px; */
+    font-size: 17px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+.search-section input {
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+#searchinput {
+    line-height: 30px;
+    width: 400px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+input[type="image"] {
+    height: 34px;
+    width: auto;
+    background-color: white;
+    vertical-align: middle;
+  }
