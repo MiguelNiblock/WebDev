@@ -17,7 +17,7 @@ body {
     position: fixed;
     font-size: 0;
 }
-nav {
+.navdiv nav {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -41,8 +41,8 @@ a:hover {
 
 /* Search Section *********************/
 .search-section {
-    padding: 80px;
-    /* margin-bottom: 30px; */
+    padding-left: 80px;
+    padding-top: 80px;
     font-size: 17px;
 }
 label {
@@ -65,3 +65,56 @@ input[type="image"] {
     background-color: white;
     vertical-align: middle;
   }
+
+
+
+/* Pages nav *******************************/
+.pages {
+    margin-left: 80px;   
+    margin-top: 30px;
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    font-size: 0;
+}
+.pages > * {
+    font-size: 16px;
+    display: inline-block;
+    line-height: 30px;
+}
+.pages-button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pages-display {
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+/* Listings *************************************/
+.listings {
+    padding: 0px;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 0px;
+}
+.listing {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.listing > * {
+    margin-right: 12px;
+}
+.listing-date, .listing-location{
+    color: #999;
+    font-size: 16px;
+
+}
+.listing-title {
+    font-weight: bold;
+    font-size: 17px;
+}
