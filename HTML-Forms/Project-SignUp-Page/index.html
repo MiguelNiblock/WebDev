@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AnalogSea</title>
+
+<meta name="description" content="Sign up for AnalogSea.">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+
+<!--Our styles-->
+<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <main>
+
+  <img class="logo" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="AnalogSea" />
+
+  <form role="form" action="/signup" accept-charset="UTF-8" method="post" class="signup-form">
+    <fieldset>
+      <legend>Sign up</legend>
+      <label for="user-email">Email</label>
+      <input type="email" placeholder="foo@bar.com" name="user-email" id="user-email" required/>
+      <label for="user-password">Password</label>
+      <input placeholder="1234passw0rd" type="password" name="user-password" id="user-password" required/>
+      <button type="submit">Sign up</button>
+    </fieldset>
+  </form>
+
+  <footer role="contentinfo" class="footer">
+    <p>Already have an account? <a href="/login">Log in</a></p>
+  </footer>
+
+  </main>
+
+
+</body>
+</html>

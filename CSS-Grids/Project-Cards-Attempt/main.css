@@ -1,0 +1,31 @@
+img{
+  width: 100%;
+  margin-bottom: 25px;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+.row{
+  margin-bottom: 20px;
+}
+.col-4 {
+  margin-bottom: 20px;
+}
+.box {
+    border: 1px solid gray;
+    padding-bottom: 20px
+}
+.box h2, .box p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.header {
+    background-color: orange;
+    padding: 25px 30px;
+    margin-bottom: 40px;
+}
+.header > h1, p {
+    max-width: 940px;
+    margin: auto;
+}
