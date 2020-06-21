@@ -32,8 +32,10 @@ function fizzBuzzGen() {
   console.log('function is running');
 
   $('#number-chooser').submit(function(e) {
+
+    $(".js-results").empty();
     
-    console.log('event triggered');
+    console.log('callback triggered');
 
     e.preventDefault();
     
