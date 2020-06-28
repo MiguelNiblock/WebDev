@@ -1,0 +1,1 @@
+Credit: https://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax
